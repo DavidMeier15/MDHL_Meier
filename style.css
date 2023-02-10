@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rosybrown ;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+    
+.title{
+    padding-left: 15px;}
+    .Imagen1{
+        width: 100%;
+        display: block;
+    }
+    nav{
+        display: inline;
+        position: absolute;
+      left:175vh;
+      top: 5vw;
+      background: none;
+      
+    }
+    .nav_home{
+        background-color: aqua;
+    }
+    .nav_about{
+        background-color: aqua;
+    }
+    .nav_contact{
+        background-color: aqua;
+    }
+.subtitle{
+   text-align: center;
+   border: solid black;
+   font-size: 1;
+   
+}
+.logo{
+    position: absolute;
+}
+.info{
+  margin-left: 45vh;
+  margin-top: 2vw;
+  
+}
