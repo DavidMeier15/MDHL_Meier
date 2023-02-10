@@ -17,7 +17,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif
         position: absolute;
       left:175vh;
       top: 5vw;
-      background: none;
+      background:none
       
     }
     .nav_home{
@@ -29,6 +29,14 @@ font-family:Verdana, Geneva, Tahoma, sans-serif
     .nav_contact{
         background-color: aqua;
     }
+    .nav_about:hover{
+        background-color: green;
+    }
+    .nav_contact:hover{
+        background-color: green;
+    }
+
+    
 .subtitle{
    text-align: center;
    border: solid black;
