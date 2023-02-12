@@ -7,43 +7,56 @@ font-family:Verdana, Geneva, Tahoma, sans-serif
 }
     
 .title{
-    padding-left: 15px;}
+    text-shadow: 1px 1px 2px blueviolet ;
+    padding-left: 15px;
+    background-color: black;
+    color: white;
+}
     .Imagen1{
         width: 100%;
         display: block;
+        
     }
     .links{
         text-shadow: 1px 1px 2px black ;
         font-weight: bold;
         display: inline;
         position: absolute;
-      left:170vh;
+      left:175vh;
       top: 5vw;
       background: none;
+      
     }
     .nav_home{
         background: none;
         text-decoration: none;
         color: blanchedalmond;
+        padding-right: 10px;
     }
     .nav_about{
         background:none;
         text-decoration: none;
         color: blanchedalmond;
+        padding-right: 10px;
+
     }
     .nav_contact{
         background:none;
         text-decoration: none;
         color: blanchedalmond;
+        padding-right: 10px;
     }
     .nav_home:hover{
         background-color: green;
+        padding-right: 0;
     }
     .nav_about:hover{
         background-color: green;
+        padding-right: 0;
     }
     .nav_contact:hover{
         background-color: green;
+        padding-right: 0;
     }
 
     
@@ -52,6 +65,9 @@ font-family:Verdana, Geneva, Tahoma, sans-serif
    border: solid black;
    font-size: 1;
    color: white;
+   background-color: black;
+   display: block;
+   text-shadow: 1px 1px 2px blueviolet ;
    
 }
 .logo{
@@ -61,6 +77,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif
 .info{
   margin-left: 45vh;
   margin-top: 3vw;
+  
   
 }
 .imagen_extra{
@@ -76,4 +93,4 @@ top: 48vw;
     font-style: inherit;
 }
 
- 
+    
