@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #fff;
-font-family:Verdana, Geneva, Tahoma, sans-serif
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+background-color: wheat;
 }
     
 .title{
@@ -20,44 +20,55 @@ font-family:Verdana, Geneva, Tahoma, sans-serif
     .links{
         text-shadow: 1px 1px 2px black ;
         font-weight: bold;
-        display: inline;
         position: absolute;
-      left:175vh;
+      left:150vh;
       top: 5vw;
       background: none;
+      display: inline;
+      
+      
       
     }
     .nav_home{
         background: none;
         text-decoration: none;
-        color: blanchedalmond;
-        padding-right: 10px;
+        margin: 0 0.500vw;
+        padding: 1vw 2vw;
+        background-color: #f5dc21;
+        color: #000000;
+        
     }
     .nav_about{
         background:none;
         text-decoration: none;
-        color: blanchedalmond;
+        margin: 0 0.500vw;
         padding-right: 10px;
-
+        padding: 1vw 2vw;
+        background-color: #f5dc21;
+        color: #000000;
     }
     .nav_contact{
         background:none;
         text-decoration: none;
-        color: blanchedalmond;
+        margin: 0 0.500vw;
         padding-right: 10px;
+        padding: 1vw 2vw;
+        background-color: #f5dc21;
+        color: #000000;
+        
     }
     .nav_home:hover{
         background-color: green;
-        padding-right: 0;
     }
     .nav_about:hover{
         background-color: green;
-        padding-right: 0;
+        
     }
     .nav_contact:hover{
         background-color: green;
-        padding-right: 0;
+        
     }
+    
 
     
 .subtitle{
@@ -74,11 +85,18 @@ font-family:Verdana, Geneva, Tahoma, sans-serif
     position: absolute;
     display: inline;
 }
+
 .info{
-  margin-left: 45vh;
-  margin-top: 3vw;
+    display: block;
+    height: 20vw;
+  margin-left: 50vh;
+  margin-top: 0.10vw;
   
   
+}
+.texto{
+    padding-top: 5vh;
+    font-weight: bold;
 }
 .imagen_extra{
     position: absolute;
@@ -92,5 +110,9 @@ top: 48vw;
     font-size: 1.5vw;
     font-style: inherit;
 }
-
+.fondo_about{
+    background-image: url(./assets/hockey_3.jpg);
+    background-size:200vh 30vw;
+   background-repeat: no-repeat;
+}
     
