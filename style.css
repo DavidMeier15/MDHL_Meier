@@ -135,23 +135,27 @@ top: 50vw;
     background-size:200vh 30vw;
    background-repeat: no-repeat;
 }
-.table_container{
-    background-color: white;
-}
+
     table{
         margin-top: 3px;
     text-align: left;
     width: 100%;
     background-color: black;
+    border-collapse: collapse;
     }
     .aclaracion{
        color:green;
     }
 .email_info{
     position: absolute;
-    top: 72vw;
+    top: 82vw;
     left: 50vh;
 }
+th, td{
+    border: solid 1px black;
+    padding: 10px;
+}
+
     .h3_rules, .p_rules{
         display: flex;
         justify-content: center;
