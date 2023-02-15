@@ -20,14 +20,11 @@ background-color: wheat;
     .links{
         text-shadow: 1px 1px 2px black ;
         font-weight: bold;
-        position: absolute;
       left:150vh;
-      top: 5vw;
+      bottom: 40vw;
       background: none;
       display: inline;
-      
-      
-      
+      position: sticky;
     }
     .nav_home{
         background: none;
@@ -57,6 +54,16 @@ background-color: wheat;
         color: #000000;
         
     }
+    .nav_info{
+        background:none;
+        text-decoration: none;
+        margin: 0 0.500vw;
+        padding-right: 10px;
+        padding: 1vw 2vw;
+        background-color: #f5dc21;
+        color: #000000;
+
+    }
     .nav_home:hover{
         background-color: green;
     }
@@ -67,6 +74,9 @@ background-color: wheat;
     .nav_contact:hover{
         background-color: green;
         
+    }
+    .nav_info:hover{
+        background-color: green;
     }
     
 
@@ -115,4 +125,16 @@ top: 48vw;
     background-size:200vh 30vw;
    background-repeat: no-repeat;
 }
+.table_container{
+    background-color: white;
+
+    
+    
+}
+    table{
+        margin-top: 3px;
+    text-align: left;
+    width: 100%;
+    background-color: black;
+    }
     
