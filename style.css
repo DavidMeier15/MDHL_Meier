@@ -20,11 +20,11 @@ background-color: wheat;
     .links{
         text-shadow: 1px 1px 2px black ;
         font-weight: bold;
+        position:sticky;
       left:150vh;
       bottom: 40vw;
       background: none;
       display: inline;
-      position: sticky;
     }
     .nav_home{
         background: none;
@@ -64,6 +64,15 @@ background-color: wheat;
         color: #000000;
 
     }
+    .nav_rules{
+        background:none;
+        text-decoration: none;
+        margin: 0 0.500vw;
+        padding-right: 10px;
+        padding: 1vw 2vw;
+        background-color: #f5dc21;
+        color: #000000;
+    }
     .nav_home:hover{
         background-color: green;
     }
@@ -78,6 +87,9 @@ background-color: wheat;
     .nav_info:hover{
         background-color: green;
     }
+    .nav_rules:hover{
+        background-color: green;
+    }
     
 
     
@@ -87,9 +99,7 @@ background-color: wheat;
    font-size: 1;
    color: white;
    background-color: black;
-   display: block;
    text-shadow: 1px 1px 2px blueviolet ;
-   
 }
 .logo{
     position: absolute;
@@ -113,7 +123,7 @@ background-color: wheat;
     width: 28%;
   margin-left: 100vh;
 display:block;
-top: 48vw;
+top: 50vw;
 }
 .letra{
     font-weight: bold;
@@ -127,14 +137,34 @@ top: 48vw;
 }
 .table_container{
     background-color: white;
-
-    
-    
 }
     table{
         margin-top: 3px;
     text-align: left;
     width: 100%;
     background-color: black;
+    }
+    .aclaracion{
+       color:green;
+    }
+.email_info{
+    position: absolute;
+    top: 72vw;
+    left: 50vh;
+}
+    .h3_rules, .p_rules{
+        display: flex;
+        justify-content: center;
+    }
+    .main_list{
+        width: 100%;
+        font-style: oblique;
+    }
+   ul_style{
+    list-style: lower-alpha;
+   }
+    ol{
+     list-style:decimal;
+     
     }
     
