@@ -148,11 +148,12 @@ background-color:burlywood
     font-weight: bold;
 }
 .imagen_extra{
-    position: absolute;
     width: 28%;
+    position: absolute;
   margin-left: 100vh;
 display:block;
 top: 50vw;
+    
 }
 .letra{
     font-weight: bold;
